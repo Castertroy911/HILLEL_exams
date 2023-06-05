@@ -14,3 +14,5 @@ Required dependencies:
 All dependencies are in "requirements.txt" file.
 You can install it with the command:
 - pip install -r requirements.txt
+
+https://github.com/Castertroy911/HILLEL_exams/commit/62c7304a0eebc72bc69608eddc52bef5c5436d95
