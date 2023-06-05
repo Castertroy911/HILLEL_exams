@@ -10,6 +10,7 @@ After successful launching you will get 2 files:
 - _broken links.txt_
 
 Required dependencies:
+
 All dependencies are in "requirements.txt" file.
 You can install it with the command:
 - pip install -r requirements.txt
