@@ -9,10 +9,11 @@ class Parser:
 
     @staticmethod
     def __is_matching_data(data):
-        if re.match(PATTERN.URL_PATTERN, data):
+        file = f'test_artifacts/{data}'
+        if '.pdf' in data and os.path.exists(file):
+            return '-pdf', file
+        elif re.match(PATTERN.URL_PATTERN, data):
             return '-url', data
-        elif os.path.exists(data):
-            return '-pdf', data
         raise Exception(TEXT.INVALID_URL_OR_PDF_TEXT)
 
     def _parse_data(self):
