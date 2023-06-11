@@ -1,8 +1,7 @@
-from dataclasses import dataclass
+from enum import Enum
 
 
-@dataclass()
-class PatternsData:
+class PatternsData(Enum):
     URL_PATTERN: str = r'^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6}[\/\w\.-]*)\/?$'
     HTTPS_PATTERN: str = r'(https?:\/\/)'
     LINK_PATTERN: str = r'(https?:\/\/[\da-z\.-]+\.[a-z\.]{2,6}[\/\w\.-]*)\/?'

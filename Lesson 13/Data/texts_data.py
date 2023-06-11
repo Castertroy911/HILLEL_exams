@@ -1,8 +1,7 @@
-from dataclasses import dataclass
+from enum import Enum
 
 
-@dataclass
-class TextData:
+class TextData(Enum):
     INVALID_URL_OR_PDF_TEXT: str = f'Entered URL is not valid or Path does not exists. Please run file again and ' \
                                    f'enter valid URL or Absolute path to PDF file! \nValid URL should starts with ' \
                                    f'"www.". or example "www.google.com"'
