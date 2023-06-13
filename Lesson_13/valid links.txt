@@ -1,5 +1,5 @@
 http://schema.org/WebPage
-https://www.google.com.ua/imghp
+https://www.google.com/imghp
 https://maps.google.com.ua/maps
 https://play.google.com/
 https://www.youtube.com/
