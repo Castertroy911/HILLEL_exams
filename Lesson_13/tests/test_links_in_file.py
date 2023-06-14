@@ -1,6 +1,6 @@
 import pytest
 import requests
-from data import PathData
+from .data import PathData
 
 
 @pytest.mark.smoke
