@@ -1,0 +1,15 @@
+http://schema.org/WebPage
+https://www.google.com/imghp
+https://maps.google.com.ua/maps
+https://play.google.com/
+https://www.youtube.com/
+https://news.google.com/
+https://mail.google.com/mail/
+https://drive.google.com/
+https://www.google.com.ua/intl/uk/about/products
+http://www.google.com.ua/history/optout
+https://accounts.google.com/ServiceLogin
+https://www.google.com/
+http://www.google.com.ua/intl/uk/services/
+https://www.google.com/setprefdomain
+https://www.google.com.ua/
