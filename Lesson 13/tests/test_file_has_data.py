@@ -4,7 +4,6 @@ from .data import PathData
 
 
 @pytest.mark.smoke
-@pytest.mark.test
 class TestFileHasData:
     def test_valid_file_has_data(self):
         with open(PathData.PATH_TO_VALID_FILE, "r+") as file:
